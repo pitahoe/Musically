@@ -1,0 +1,101 @@
+header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    width: 100%;
+    position: relative;
+}
+ul{
+    width: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+    margin: 0;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    
+    background: url(https://www.snaprecordings.com/hubfs/music_bg2.png) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif; 
+} 
+h2 {
+    color: #ffffff;
+    margin: 0.5em 0;
+  }
+footer{
+    background: linear-gradient(rgb(134, 117, 81));
+        text-align: center;
+        padding: 24px 0;
+}
+.telephone{
+  font-size: 32px;
+  color: white; 
+} 
+
+.wrap_contact {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.con {
+    display: block;
+    width: 100%; 
+    margin: 0; 
+}
+.cont-form {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.cont-form div {
+    padding: 5px 0 15px;
+}
+.cont-form input,
+.cont-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.cont-form textarea {
+    padding: 18px;
+    display: block;
+    width: 100%; 
+    height: 180px;
+    background-color: #fff;
+    outline: none;
+    color: #888282;
+    font-size: 18px;
+    border: 2px solid #cacaca;
+    margin-bottom: 2em;
+}
+.button {
+    background-color: rgb(134, 117, 81);
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto; 
+    width: 50%; 
+}
+a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: rgb(113, 64, 0);
+    text-decoration: none;
+}
